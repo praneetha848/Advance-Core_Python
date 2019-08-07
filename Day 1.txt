@@ -1,0 +1,43 @@
+import numpy as np
+
+array_one=np.array([1,2,3])
+array([1,2,3])
+****************************************
+How print no.of.row and columns
+ 
+array_ones_int = np.ones((3,4),dtype = np.int16)
+array_ones_int
+
+o/p= array([[1, 1, 1, 1],
+       [1, 1, 1, 1],
+       [1, 1, 1, 1]], dtype=int16)
+
+****************************************************
+How to print values between two range with step 2
+array_events = np.arange(2,20,2)
+array_events
+
+o/p :array([ 2,  4,  6,  8, 10, 12, 14, 16, 18])
+
+*****************************************************
+
+How to print values between two range with .3 difference.
+
+array_float = np.arange(0,2,.3)
+array_float
+
+O/P:
+array([0. , 0.3, 0.6, 0.9, 1.2, 1.5, 1.8])
+
+*******************************************************
+how to create n dimentional array?
+array = np.arange(6).reshape(3,2)
+array
+
+o/p
+array([[0, 1],
+       [2, 3],
+       [4, 5]])
+********************************************************
+
+
