@@ -1,0 +1,46 @@
+a=np.array([[1,1],[0,1]])
+print("a:\n",a)
+
+ o/p:[[1 1]
+ [0 1]]
+
+b=np.array([[2,0],[3,2]])
+print("a:\n",a)
+
+o/p: [[1 1]
+ [0 1]]
+************************
+a*b
+
+array([[2, 0],
+       [0, 2]])
+
+************************************************
+
+#Matrix multiplication
+
+a.dot(b)
+
+
+array([[5, 2],
+       [3, 2]])
+
+****************************************
+Angles need to coverte into radians by multiplying by pi/180
+
+angles=np.array([0,30,45,60,90])
+angles_radians=angles*np.pi/180
+angles_radians
+o/p:array([0.        , 0.52359878, 0.78539816, 1.04719755, 1.57079633])
+*********************************************************************************
+how to print tan values.
+
+angles=np.array([0,30,45,60,90])
+angles_radians=angles*np.pi/180  #print radians
+print(np.tan(angles_radians))
+O/P:
+
+[0.00000000e+00 5.77350269e-01 1.00000000e+00 1.73205081e+00
+ 1.63312394e+16]
+*******************************************************************************
+l
